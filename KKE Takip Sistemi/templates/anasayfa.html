@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YOLOv8 ile Kişisel Koruyucu Ekipman Tespiti</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: right;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        header.below {
+            height: 400px;
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .slider-container {
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slider img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .details {
+            padding: 20px;
+            text-align: center;
+            background-color: #ecf0f1;
+        }
+
+        .features {
+            background: white;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .features figure {
+            flex: 0 0 30%;
+            margin: 10px;
+        }
+
+        .features figure img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 40px;
+        }
+
+        .main h1 {
+            color: #3498db;
+        }
+
+        .subpart1 {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .subpart2 figure img {
+            border-radius: 4%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .contact-page {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        #textbox,
+        #textboxes {
+            font-size: 18pt;
+            height: 42px;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            font-size: 18pt;
+            height: 42px;
+            width: 100%;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 20px 0;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="site-name">YOLOv8 ile Kişisel Koruyucu Ekipman Tespiti</div>
+        <nav>
+            <ul>
+                <li><a href="/home">Ana Sayfa</a></li>
+                <li><a href="/FrontPage">Video</a></li>
+                <li><a href="/webcam">Kamera</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="below">
+        <div class="slider-container">
+            <div class="slider">
+                <img src="../static/images/11.png" alt="Slider Image 1">
+                <img src="../static/images/2.png" alt="Slider Image 2">
+                <img src="../static/images/3.png" alt="Slider Image 3">
+            </div>
+        </div>
+    </header>
+
+    <div class="details"><br><br><br><br><br>
+        <h1>Örnek Sonuçlar</h1>
+    </div>
+
+    <section class="features">
+        <figure>
+            <img src="../static/images/8.png" alt="YOLOv8 Results 1">
+            <figcaption>YOLOv8 Sonuç 1</figcaption>
+        </figure>
+        <figure>
+            <img src="../static/images/2.png" alt="YOLOv8 Results 2">
+            <figcaption>YOLOv8 Sonuç 2</figcaption>
+        </figure>
+        <figure>
+            <img src="../static/images/3.png" alt="YOLOv8 Results 3">
+            <figcaption>YOLOv8 Sonuç 3</figcaption>
+        </figure>
+    </section>
+
+    <div class="main">
+        <div class="subpart1">
+            <h1>YOLOv8 ile Kişisel Koruyucu Ekipman Tespiti</h1>
+            <h4>Güvenliğinizi Yeniden Tanımlayın</h4>
+
+            <p>Koruyucu Nesne Tespit Programı, güvenliğinizi bir adım öteye taşıyarak işyerinizin veya yaşam alanınızın daha güvenli ve korunaklı olmasına yardımcı olur.
+                Kişisel koruyucu ekipmanların doğru şekilde kullanılması, güvenlik kültürünü güçlendirir ve potansiyel tehlikelere karşı önlem almanıza yardımcı olur.
+                Sitemizi ziyaret edin ve sunduğu avantajları keşfedin. Güvenlik artık daha akıllı, daha etkili ve daha erişilebilir!
+            </p>
+            <p>Güvenliğinizi bir adım öteye taşıyın!</p>
+        </div>
+
+        <div class="subpart2">
+            <figure>
+                <img src="../static/images/1.png" alt="Image Missing">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="contact-page">
+        <h1>İletişim</h1>
+        <p>İstek ve önerileriniz için bizimle iletişime geçin.</p>
+        <form action="/action_page.php" target="_blank">
+            <p><input type="text" placeholder="Name" required name="Name" id="textbox"></p>
+            <p><input type="text" placeholder="Email ID" required name="Email" id="textboxes"></p>
+            <p><button type="submit">GÖNDER</button></p>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2024 YOLOv8 ile Kişisel Koruyucu Ekipman Tespiti
+    </footer>
+</body>
+
+</html>
