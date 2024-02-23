@@ -1,1 +1,3 @@
-# Ki-isel-Koruyucu-Ekipman-Tespit-Sistemi
+# Kisisel-Koruyucu-Ekipman-Tespit-Sistemi
+
+Python dilinde YOLOv8 mimarisi kullanılarak oluşturulan bu proje iş sağlığı ve güvenliği standartlarının sıkı bir şekilde uygulanmasını sağlamak amacıyla geliştirilen yenilikçi bir çözümü tanıtmaktadır. İş yerlerinde çalışanların baret, yelek, ayakkabı gibi zorunlu koruyucu ekipmanları doğru bir şekilde takmalarını denetleyen bu sistem, görüntü işleme teknolojilerini kullanarak eksik veya yanlış giyim durumlarını tespit eder. İş sağlığı ve güvenliği alanında önemli bir adım olan bu proje, iş kazalarını minimize etmeyi hedeflerken, iş yerlerine daha yüksek bir güvenlik standardı getirerek çalışanların sağlığını koruma yolunda önemli bir rol oynamaktadır.
